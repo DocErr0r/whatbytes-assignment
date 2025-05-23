@@ -3,9 +3,12 @@ import Filters from "@/components/Filters";
 import ProductCard from "@/components/ProductCard";
 import { useSelector } from "react-redux";
 import { useSearchParams, useRouter } from 'next/navigation';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function Home() {
+
+
+  const [showMobileFilters, setShowMobileFilters] = useState(false);
   const products = useSelector((state) => state.products.products);
   const search = useSelector((state) => state.filters.search);
   const categories = useSelector((state) => state.filters.categories);
@@ -56,9 +59,14 @@ export default function Home() {
 
   return (
     <div className="mx-3 flex gap-4">
-      <Filters />
+      <Filters setShowMobileFilters={setShowMobileFilters} showMobileFilters={showMobileFilters} />
       <div className="conatiner mx-auto flex flex-1 flex-col gap-4">
-        <h3 className="text-2xl font-bold text-blue-950 ">Product Listing</h3>
+        <div className="flex justify-between items-center">
+          <h3 className="text-2xl font-bold text-blue-950 ">Product Listing</h3>
+          <button className="md:hidden bg-blue-700 text-white px-4 py-2 rounded shadow-lg" onClick={() => setShowMobileFilters(true)}>
+            Filter
+          </button>
+        </div>
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
           {filteredProducts.length === 0 ? (
             <div className="col-span-full text-center text-gray-500 py-10">No products found.</div>
