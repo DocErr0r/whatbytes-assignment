@@ -3,7 +3,7 @@ import { ShoppingCart, User, Search } from 'lucide-react';
 
 export default function Header() {
     return (
-        <header className="flex justify-between text-white bg-blue-700 items-center p-4 shadow-md">
+        <header className="flex sticky top-0 z-50 justify-between text-white bg-blue-700 items-center p-4 shadow-md">
             <div className="text-3xl font-bold">Logo</div>
 
             <div className="flex relative justify-center w-1/3">
@@ -12,9 +12,9 @@ export default function Header() {
             </div>
 
             <div className="flex items-center space-x-4">
-                <Link href="/cart" className="bg-blue-950 flex text-center py-2 px-7 font-bold rounded-xl">
-                    <ShoppingCart className="mr-2" />
-                    Cart
+                <Link href="/cart" className="bg-blue-950 flex text-center justify-center py-2 px-2 md:px-7 gap-2 font-bold rounded-xl">
+                    <ShoppingCart />
+                    <span className='hidden md:flex '>Cart</span>
                 </Link>
                 <div className="bg-blue-950 p-2 rounded-full">
                     <User />

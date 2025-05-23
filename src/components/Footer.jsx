@@ -27,7 +27,7 @@ function Footer() {
 
                 <div className="text-center md:text-left">
                     <h3 className="text-xl font-bold mb-4">Follow Us</h3>
-                    <div className="flex space-x-4">
+                    <div className="flex justify-center sm:justify-start space-x-4">
                         <a href="/" target="_blank" className="text-2xl bg-blue-600 p-2 rounded-full">
                             <Facebook fill="white" stroke={0} />
                         </a>
