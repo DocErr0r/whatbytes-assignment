@@ -12,4 +12,13 @@ const store = configureStore({
     },
 });
 
+if (typeof window !== 'undefined') {
+    store.subscribe(() => {
+        const state = store.getState();
+        try {
+            localStorage.setItem('cart', JSON.stringify(state.cart.items));
+        } catch {}
+    });
+}
+
 export default store;

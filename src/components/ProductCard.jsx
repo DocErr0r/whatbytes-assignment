@@ -8,7 +8,7 @@ export default function ProductCard({ product }) {
     const dispatch = useDispatch();
     return (
         <div className="p-4 rounded shadow-sm hover:shadow-2xl transition duration-300">
-            <Link href={`/product/${product.id}`}>
+            <Link href={`/products/${product.id}`}>
                 <Image src={product.image} alt={product.title} height={100} width={100} className="h-52 w-[100%] object-cover" />
             </Link>
             <h3 className="mt-2 font-semibold">{product.title}</h3>

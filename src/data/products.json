@@ -4,6 +4,7 @@
         "title": "AeroFlow Pro Drone",
         "price": 499.99,
         "category": "Electronics",
+        "brand":"Brand A",
         "image": "https://images.pexels.com/photos/1070527/pexels-photo-1070527.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Capture stunning aerial footage with this advanced drone. Features 4K camera, 30-min flight time, and intelligent flight modes.",
         "rating": 4.5
@@ -13,6 +14,7 @@
         "title": "ZenBook Ultra Laptop",
         "price": 1299.0,
         "category": "Electronics",
+        "brand": "Brand B",
         "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800",
         "description": "Sleek and powerful, perfect for professionals. 16GB RAM, 1TB SSD, and a vibrant 15-inch display.",
         "rating": 4.7
@@ -22,6 +24,7 @@
         "title": "SonicBlast Noise-Cancelling Headphones",
         "price": 199.5,
         "category": "Electronics",
+        "brand": "Brand A",
         "image": "https://images.pexels.com/photos/3587477/pexels-photo-3587477.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Immersive sound experience with industry-leading noise cancellation. Comfortable for long listening sessions.",
         "rating": 4.3
@@ -31,6 +34,7 @@
         "title": "Vintage Leather Jacket",
         "price": 249.0,
         "category": "Fashion",
+        "brand": "Brand C",
         "image": "https://images.pexels.com/photos/1390457/pexels-photo-1390457.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Timeless style meets modern comfort. Crafted from premium genuine leather, perfect for any season.",
         "rating": 4.6
@@ -40,6 +44,7 @@
         "title": "Smart Wi-Fi Coffee Maker",
         "price": 85.75,
         "category": "Home & Kitchen",
+        "brand": "Brand A",
         "image": "https://images.pexels.com/photos/668270/pexels-photo-668270.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Brew your perfect coffee from anywhere with your smartphone. Programmable settings and sleek design.",
         "rating": 4.1
@@ -49,6 +54,7 @@
         "title": "Ergonomic Office Chair",
         "price": 320.0,
         "category": "Home & Kitchen",
+        "brand": "Brand C",
         "image": "https://images.pexels.com/photos/5926392/pexels-photo-5926392.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Designed for maximum comfort and support during long work hours. Adjustable height and lumbar support.",
         "rating": 4.8
@@ -58,6 +64,7 @@
         "title": "Compact Digital Camera",
         "price": 599.0,
         "category": "Electronics",
+        "brand": "Brand B",
         "image": "https://images.pexels.com/photos/1703248/pexels-photo-1703248.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Capture life's moments in stunning detail. Features a high-resolution sensor and easy-to-use interface.",
         "rating": 4.2
@@ -67,6 +74,7 @@
         "title": "Classic Denim Jeans",
         "price": 75.0,
         "category": "Fashion",
+        "brand": "Brand A",
         "image": "https://images.pexels.com/photos/6029871/pexels-photo-6029871.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Durable and stylish, a must-have for every wardrobe. Perfect fit and comfortable stretch fabric.",
         "rating": 3.9
@@ -76,6 +84,7 @@
         "title": "Smart Home Hub",
         "price": 120.0,
         "category": "Electronics",
+        "brand": "Brand C",
         "image": "https://images.pexels.com/photos/4033282/pexels-photo-4033282.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Control all your smart devices from one central hub. Compatible with popular smart home ecosystems.",
         "rating": 4.0
@@ -85,6 +94,7 @@
         "title": "Elegant Evening Dress",
         "price": 180.0,
         "category": "Fashion",
+        "brand": "Brand B",
         "image": "https://images.pexels.com/photos/2085732/pexels-photo-2085732.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Make a statement with this sophisticated evening dress. Perfect for special occasions.",
         "rating": 4.7
@@ -94,6 +104,7 @@
         "title": "Robot Vacuum Cleaner",
         "price": 350.0,
         "category": "Home & Kitchen",
+        "brand": "Brand A",
         "image": "https://images.pexels.com/photos/4239088/pexels-photo-4239088.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Effortlessly clean your home with this smart robot vacuum. Schedule cleanings and control via app.",
         "rating": 4.4
@@ -103,6 +114,7 @@
         "title": "Portable Bluetooth Speaker",
         "price": 79.99,
         "category": "Electronics",
+        "brand": "Brand C",
         "image": "https://images.pexels.com/photos/1012921/pexels-photo-1012921.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Powerful sound in a compact design. Ideal for outdoor adventures or home entertainment.",
         "rating": 4.2
@@ -112,6 +124,7 @@
         "title": "Men's Casual Sneakers",
         "price": 65.5,
         "category": "Fashion",
+        "brand": "Brand B",
         "image": "https://images.pexels.com/photos/12693026/pexels-photo-12693026.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Comfortable and trendy sneakers for everyday wear. Available in multiple colors.",
         "rating": 4.0
@@ -121,6 +134,7 @@
         "title": "Air Fryer XL",
         "price": 110.0,
         "category": "Home & Kitchen",
+        "brand": "Brand A",
         "image": "https://images.pexels.com/photos/4030722/pexels-photo-4030722.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Enjoy healthier meals with less oil. Large capacity perfect for families.",
         "rating": 4.6
@@ -130,6 +144,7 @@
         "title": "Gaming Monitor 27-inch",
         "price": 299.0,
         "category": "Electronics",
+        "brand": "Brand C",
         "image": "https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Experience smooth and immersive gaming with high refresh rates and low response time.",
         "rating": 4.8
@@ -139,6 +154,7 @@
         "title": "Wool Knit Sweater",
         "price": 90.0,
         "category": "Fashion",
+        "brand": "Brand B",
         "image": "https://images.pexels.com/photos/6770028/pexels-photo-6770028.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Cozy and warm, made from 100% premium wool. Ideal for colder seasons.",
         "rating": 4.1
@@ -148,6 +164,7 @@
         "title": "Stainless Steel Cookware Set",
         "price": 175.0,
         "category": "Home & Kitchen",
+        "brand": "Brand A",
         "image": "https://images.pexels.com/photos/2099307/pexels-photo-2099307.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Durable and elegant, perfect for all your cooking needs. Includes various pots and pans.",
         "rating": 4.5
@@ -157,6 +174,7 @@
         "title": "Fitness Tracker Watch",
         "price": 140.0,
         "category": "Electronics",
+        "brand": "Brand C",
         "image": "https://images.pexels.com/photos/2674393/pexels-photo-2674393.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Monitor your health and track your workouts. Features heart rate, steps, and sleep tracking.",
         "rating": 4.2
@@ -166,6 +184,7 @@
         "title": "Silk Scarf",
         "price": 45.0,
         "category": "Fashion",
+        "brand": "Brand B",
         "image": "https://images.pexels.com/photos/1036858/pexels-photo-1036858.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Luxurious and soft, a versatile accessory for any outfit. Hand-printed design.",
         "rating": 4.0
@@ -175,6 +194,7 @@
         "title": "Blender & Food Processor",
         "price": 95.0,
         "category": "Home & Kitchen",
+        "brand": "Brand A",
         "image": "https://images.pexels.com/photos/1726002/pexels-photo-1726002.jpeg?auto=compress&cs=tinysrgb&w=800",
         "description": "Powerful and versatile, perfect for smoothies, soups, and meal prep. Easy to clean.",
         "rating": 4.7
