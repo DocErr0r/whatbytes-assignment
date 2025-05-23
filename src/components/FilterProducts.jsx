@@ -47,8 +47,10 @@ export default function FilteredProductList() {
 
     const filteredProducts = products.filter((product) => {
         const matchesSearch = search === '' || product.title.toLowerCase().includes(search.toLowerCase());
-        const matchesCategory = urlCategory && urlCategory !== 'All' ? product.category.toLowerCase() === urlCategory.toLowerCase() : categories.includes('All') || categories.includes(product.category);
-        const matchesBrand = urlBrand && urlBrand !== 'All' ? product.brand.toLowerCase() === urlBrand.toLowerCase() : brands.includes('All') || brands.includes(product.brand);
+        const urlCategories = urlCategory ? urlCategory.split(',').map((c) => c.trim().toLowerCase()) : [];
+        const urlBrands = urlBrand ? urlBrand.split(',').map((b) => b.trim().toLowerCase()) : [];
+        const matchesCategory = urlCategories.length > 0 && !urlCategories.includes('all') ? urlCategories.includes(product.category.toLowerCase()) : categories.includes('All') || categories.includes(product.category);
+        const matchesBrand = urlBrands.length > 0 && !urlBrands.includes('all') ? urlBrands.includes((product.brand || '').toLowerCase()) : brands.includes('All') || brands.includes(product.brand);
         const matchesPrice = product.price >= urlMin && product.price <= urlMax;
         return matchesSearch && matchesCategory && matchesPrice && matchesBrand;
     });
