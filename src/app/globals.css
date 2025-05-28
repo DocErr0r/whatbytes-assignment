@@ -1,6 +1,20 @@
 @import 'tailwindcss';
 @utility scrollbar-hidden {
     &::-webkit-scrollbar {
-      display: none;
+        display: none;
     }
-  }
+}
+.sliderThumb {
+    appearance: none;
+    pointer-events: none;
+    &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        border-radius: 100%;
+        width: 26px; 
+        height: 26px; 
+        background: #2563eb;
+        cursor: pointer;
+        pointer-events: all;
+    }
+}

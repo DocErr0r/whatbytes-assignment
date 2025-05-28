@@ -2,15 +2,14 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { setCategories, setBrands, setMinPrice, setMaxPrice, clearFilters } from '@/store/slices/filterSlice';
+import DoubleSlider from './RangeSlider';
 
 export default function Filters({ showMobileFilters, setShowMobileFilters }) {
     const dispatch = useDispatch();
     const selectedCategories = useSelector((state) => state.filters.categories);
     const selectedBrands = useSelector((state) => state.filters.brands);
-    const minPrice = useSelector((state) => state.filters.minPrice);
-    const maxPrice = useSelector((state) => state.filters.maxPrice);
-    const PRICE_MIN_LIMIT = 0;
-    const PRICE_MAX_LIMIT = 10000;
+    // const minPrice = useSelector((state) => state.filters.minPrice);
+    // const maxPrice = useSelector((state) => state.filters.maxPrice);
 
     useEffect(() => {
         if (showMobileFilters) {
@@ -90,12 +89,13 @@ export default function Filters({ showMobileFilters, setShowMobileFilters }) {
                     </ul>
                 </div>
                 <div className="pb-4">
-                    <h4 className="text-xl text-white mb-3">Price Range</h4>
+                    <DoubleSlider/>
+                    {/* <h4 className="text-xl text-white mb-3">Price Range</h4>
                     <div className="flex items-center space-x-3">
                         <input type="number" placeholder="Min" className="w-1/2 p-2 rounded-lg bg-blue-800 text-white border border-blue-600 focus:border-blue-400 focus:ring focus:ring-blue-400 focus:ring-opacity-50 text-center" value={minPrice} onChange={(e) => dispatch(setMinPrice(Number(e.target.value)))} />
                         <span className="text-white">-</span>
                         <input type="number" placeholder="Max" className="w-1/2 p-2 rounded-lg bg-blue-800 text-white border border-blue-600 focus:border-blue-400 focus:ring focus:ring-blue-400 focus:ring-opacity-50 text-center" value={maxPrice} onChange={(e) => dispatch(setMaxPrice(Number(e.target.value)))} />
-                    </div>
+                    </div> */}
                 </div>
                 <div className="pb-4">
                     <h4 className="text-xl text-white mb-3">Brand</h4>
